@@ -1,8 +1,9 @@
-import './App.css'
+import '@/App.css'
 
 import React, { useState } from 'react'
 
-import logo from './logo.svg'
+import logo from '@/logo.svg'
+import Welcome from '@/Welcome'
 
 function App() {
   const [count, setCount] = useState('count')
@@ -16,6 +17,7 @@ function App() {
           Eslint 🔥+ Prettier
         </p>
 
+        <Welcome name="World"></Welcome>
         <div className="body">
           <button onClick={() => setCount((count) => count + 1)}>
             🪂 Click me : {count}
