@@ -2,10 +2,10 @@
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "types": ["vite/client", "node"],
-    "allowJs": false,
+    "types": ["vite/client", "node", "jest", "testing-library__jest-dom"],
+    "allowJs": true,
     "skipLibCheck": false,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -15,19 +15,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./*"]
+      "~/*": ["./src/*"]
     }
   },
-  "include": [
-    "./src",
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.css",
-    "src/**/*.svg"
-  ],
+  "include": ["./src"],
   "exclude": ["node_modules"]
 }

@@ -1,10 +1,10 @@
-import '@/App.css'
+import './App.css'
 
 import React, { useState } from 'react'
 
-import logo from '@/logo.svg'
-import Welcome from '@/Welcome'
+import Welcome from '~/Welcome'
 
+import logo from './logo.svg'
 function App() {
   const [count, setCount] = useState('count')
 
