@@ -12,10 +12,15 @@ After the successfull installation of the packages: `npm run dev`
 
 ## Stack
 
+- Typescript
 - Vite
 - React
-- Typescript
+- Mobx
+- Tailwind CSS
+- Ant design react (load when needed)
+
+Devtools：
 - Eslint
 - Prettier
 - Jest
-- Tailwind CSS
+
