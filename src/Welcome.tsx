@@ -8,9 +8,9 @@ function Welcome(props: IProps) {
   const time = new Date().toLocaleTimeString()
 
   return (
-    <h1>
+    <div>
       Hello, {props.name}: {time}
-    </h1>
+    </div>
   )
 }
 
