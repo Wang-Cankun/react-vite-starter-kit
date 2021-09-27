@@ -1,10 +1,9 @@
-import { SearchOutlined } from '@ant-design/icons'
-import SmileOutlined from '@ant-design/icons/lib/icons/SmileOutlined'
+import { SearchOutlined, SmileOutlined } from '@ant-design/icons'
 import { Button, Divider } from 'antd'
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
 
-import Welcome from '~/Welcome'
+import Welcome from '@/Welcome'
 
 import { MoonIcon } from './icons/Moon'
 import logo from './logo.svg'
