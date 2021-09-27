@@ -6,7 +6,7 @@
 - Vite
 - React
 - Mobx
-- Tailwind CSS
+- Tailwind CSS (JIT mode)
 - Ant design react (load when needed)
 
 Devtools：
