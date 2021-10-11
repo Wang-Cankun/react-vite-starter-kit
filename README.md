@@ -1,19 +1,16 @@
 # React-vite-starter-kit
-
 ## Stack
 
 - Typescript
 - Vite
 - React
 - Mobx
-- Tailwind CSS (JIT mode)
-- Ant design react (load when needed)
+- Tailwind CSS (Just-in-time mode)
 
 Devtools：
 - Eslint
 - Prettier
 - Jest
-
 
 ## Installation
 
